@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 from datetime import datetime, timedelta
 
 # Variables
+# Any area in South Korea on iqair.com should work
 URL = "https://www.iqair.com/south-korea/gyeonggi-do/pyeongtaek"
 today = datetime.today()
 headers = {
