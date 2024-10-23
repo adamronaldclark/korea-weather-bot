@@ -8,13 +8,13 @@ This script is set up to use Gmail to mail a list of recipients the 5 day weathe
 
 You need to create and populate "app-user.txt", "app-pw.txt", and "emails.txt" before running.
 
-app-user.txt contains your gmail account (the account you are sending from)
+app-user.txt contains your gmail account (the account you are sending from).
 
-app-pw.txt contains the gmail app password for the account listed in app-user.txt
+app-pw.txt contains the gmail app password for the account listed in app-user.txt.
 
-Link to create app password: https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237
+Link to create app password: https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237.
 
-emails.txt contains the list of emails (one per line) that you want the forecast emailed to
+emails.txt contains the list of emails (one per line) that you want the forecast emailed to.
 
 ## Install Dependencies
 pip install -r requirements.txt
