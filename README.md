@@ -1,6 +1,6 @@
 # Korea Weather Bot
 
-Simple web scraper I wrote to get the 5 day weather forecast (including the API) while I was in Korea.
+Simple web scraper I wrote to get the 5 day weather forecast (including the AQI) while I was in Korea.
 
 ## Setup
 
