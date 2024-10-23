@@ -26,7 +26,7 @@ with open('app-pw.txt', 'r') as file:
     # Read the password from the file
     app_password = file.read().strip()
     
-    # Open the file in read mode
+# Open the file in read mode
 with open('app-user.txt', 'r') as file:
     # Read the password from the file
     app_user = file.read().strip()
@@ -104,4 +104,5 @@ sender = app_user
 recipients = email_list
 password = app_password
 
+# Send email
 send_email(subject, body, sender, recipients, password)
